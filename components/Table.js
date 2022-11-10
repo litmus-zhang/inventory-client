@@ -57,9 +57,6 @@ const TableComponent = () => {
     setAllItems(response.data);
   };
 
-  // const allItem = useCallback(() => {
-  //   getAllItems();
-  // }, [allItems]);
   useEffect(() => {
     getAllItems();
   }, [allItems]);
